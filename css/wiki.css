@@ -1,0 +1,219 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+
+}
+ h1, h2, h3, h4 {
+    font-family: 'candal', serif;
+    color: grey;
+ }
+ a {
+    text-decoration: none;
+    color: inherit;
+ }
+header * {
+    color: white;
+}
+
+header {
+    background-color: rgb(75, 132, 161);
+    height: 66px;
+}
+
+header .logo {
+    float: left;
+}
+
+header ul {
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+header ul li {
+    float: left;
+}
+
+header ul li a {
+    display: block;
+    padding: 21px;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    background: rgba(125, 176, 201, 0.733);
+    transition: 0.5s;
+}
+
+/*------------post slider------------------------------------*/
+.page-wrapper a:hover{
+    color: rgb(89, 89, 89);
+
+}
+
+.post-slider .post-title {
+    text-align: center;
+    margin: 30px auto;
+}
+.post-slider .post-wrapper {
+    width: 84%;
+    height: 300px;
+    margin: 0px auto;
+    overflow: hidden;
+    padding: 10px 0px 10px 0px;
+}
+.post-slider .post-wrapper .post{
+    width: 300px;
+    height: 330px;
+    margin: 0px 10px;
+    display: inline-block;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 1rem 1rem 1rem -1rem grey;
+}
+.post-slider .post-wrapper .post .post-info {
+    height: 130px;
+    padding: 0px 5px;
+}
+.post-slider .post-wrapper .post .slider-image {
+    width: 100%;
+    height: 100px;
+
+}
+/*------------content----------------------------------------*/
+.container {
+    display:flex;
+/* flex direction row already in default, makes it horizontal*/
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 250px;
+    border-color: gray;
+    border-width: 3px;
+}
+.juba {
+    border: 5px;
+    border-style: solid;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+.anok {
+    border: 5px;
+    border-style: solid;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+.bol {
+    border: 5px;
+    border-style: solid;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+.dinka {
+    border: 5px;
+    border-style: solid;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.map-container {
+    max-width: 560px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#stateMap {
+    width: 100%;
+    height: auto;
+}
+
+#stateMap path {
+    fill: #eef3f8;
+    stroke: #1a202c;
+    stroke-width: 2;
+}
+
+.state-marker circle {
+    fill: #2b6cb0;
+    stroke: #ffffff;
+    stroke-width: 2;
+    cursor: pointer;
+    transition: fill 0.15s ease;
+}
+
+.state-marker:hover circle {
+    fill: #3182ce;
+}
+
+.state-marker.active circle {
+    fill: #dd6b20;
+}
+
+.state-marker text {
+    fill: white;
+    font-size: 13px;
+    font-weight: bold;
+    text-anchor: middle;
+    pointer-events: none;
+    font-family: sans-serif;
+}
+
+.map-legend {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4px 16px;
+    max-width: 400px;
+    margin: 16px auto 0;
+    padding: 0;
+    font-size: 13px;
+    text-align: left;
+    color: #444;
+}
+
+.network-container {
+    max-width: 800px;
+    margin: 30px auto;
+    min-height: 300px;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.network-placeholder {
+    text-align: center;
+    color: #888;
+}
+
+#networkSvg text {
+    font-size: 12px;
+    fill: #222;
+    text-anchor: middle;
+    font-family: sans-serif;
+}
+
+#networkSvg circle {
+    fill: #2b6cb0;
+}
+
+#networkSvg line {
+    stroke: #aaa;
+    stroke-width: 1.5;
+}
+/*------------content----------------------------------------*/
+/*------------side bar----------------------------------------*/
+
+/*------------side bar----------------------------------------*/

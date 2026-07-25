@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="pageTitle">Lesson</title>
+    <link rel="stylesheet" href="../css/lesson.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <a href="../index.html">DINKAPEDIA</a>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="../about.html">ABOUT</a></li>
+            <li><a href="../wiki.html">WIKI</a></li>
+        </ul>
+    </nav>
+
+    <h1 id="lessonTitle">Learn</h1>
+
+    <div class="learn-container">
+
+        <video id="lessonVideo" width="500" height="300" controls autoplay>
+            <source id="videoSource" src="../videos/firstvid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!--------------------- Quiz ---------------------------->
+        <div class="quiz-container">
+            <p id="progress" class="progress"></p>
+            <h2 id="question">Quick Quiz</h2>
+
+            <div id="answer-buttons"></div>
+
+            <button id="next-btn" class="btn">Next</button>
+        </div>
+
+    </div>
+
+    <script src="../lesson.js"></script>
+</body>
+
+</html>
