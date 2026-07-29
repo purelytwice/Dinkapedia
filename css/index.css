@@ -149,45 +149,11 @@ nav{
 }
 /*---------------------Wiki page------------------------*/
 
-.wiki {
+.wiki{
     width: 100%;
-    min-height: 500px;
-    background-color: rgb(51, 134, 169);
-
-    display: flex;
-    flex-direction: column;   /* Stack h2, p, and ul */
-    justify-content: center;  /* Center vertically */
-    align-items: flex-end;    /* Move everything to the right */
-
-    padding: 80px;
-    box-sizing: border-box;
-}
-
-.wiki h2 {
-    color: white;
-    font-size: 48px;
-    max-width: 500px;
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-.wiki p {
-    color: white;
-    font-size: 24px;
-    max-width: 500px;
-    line-height: 1.5;
-    text-align: left;
-    margin-bottom: 30px;
-}
-
-.wiki ul {
-    color: white;
-    max-width: 500px;
-    padding-left: 25px;
-}
-
-.wiki li {
-    font-size: 20px;
-    line-height: 1.7;
-    margin-bottom: 15px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    background-color:rgb(51, 134, 169);
 }
